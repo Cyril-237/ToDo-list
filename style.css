@@ -1,0 +1,80 @@
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+
+}
+
+.centre{
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 1px 1px 6px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #0c1f9bae;
+    border-radius: 5px;
+}
+
+.input-centre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1px; /* Espace entre l'input et le bouton */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0d11fd6c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #889feada;
+}
+
+ul {
+    list-style-type:none;
+    padding: 0;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+li {
+    background-color: #e0e0e0;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li.completed {
+    text-decoration: line-through;
+    background-color: #d4edda;
+}
+
+li button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+li button:hover {
+    background-color: #d7e3e3;
+}
